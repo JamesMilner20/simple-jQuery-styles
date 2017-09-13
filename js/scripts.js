@@ -1,3 +1,8 @@
-jQuery(document).ready(function() {
-        alert("This is a header.");
-      };
+
+$(document).ready(function() {
+    $(".clickable").click(function() {
+        $("img").toggle();
+        $("#walrus-showing").toggle();
+        $("#walrus-hidden").toggle();
+    });
+});
